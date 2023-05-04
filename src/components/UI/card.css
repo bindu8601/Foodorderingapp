@@ -1,0 +1,19 @@
+.card {
+  background-color: white;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+  display: flex;
+  width: 900px;
+  margin: auto;
+}
+
+.wholeinput {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.input {
+  width: 40px;
+  margin-left: 1rem;
+}

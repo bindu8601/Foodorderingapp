@@ -1,0 +1,64 @@
+.amount {
+  font-weight: 800;
+}
+
+.totalprice {
+  font-weight: 800;
+  margin-left: 20rem;
+}
+.closebutton {
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(91, 26, 26);
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 40px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.orderbutton {
+  border-radius: 0.5rem;
+  background-color: rgb(91, 26, 26);
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 40px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.cart-item__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item__price {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item__actions {
+  align-items: center;
+}
+.btn {
+  border-radius: 1rem;
+  background-color: rgb(91, 26, 26);
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  width: 50px;
+  height: 40px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: brown;
+}

@@ -1,0 +1,63 @@
+.summary {
+  background-color: rgb(40, 32, 32);
+  border: 1px solid rgb(65, 61, 61);
+  padding: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  box-shadow: black;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.availablemeals {
+  margin-top: 7rem;
+}
+.price {
+  color: brown;
+  font-weight: 900;
+}
+.li {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.meal-item-content {
+  flex: 1;
+}
+
+.meal-item-form {
+  margin-left: 20rem;
+}
+.addbtn {
+  border-radius: 1rem;
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+}
+.addbtn:hover {
+  width: 95px;
+  background-color: white;
+  color: brown;
+}
+.des {
+  font-style: italic;
+  font-weight: 100;
+}

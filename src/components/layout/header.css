@@ -1,0 +1,24 @@
+.header {
+  background-color: brown;
+  color: white;
+  font-family: "Ysabeau", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  margin-left: 4rem;
+}
+.mealsimage {
+  width: 100%;
+}
+
+.mealsimage img {
+  width: 100%;
+  object-fit: cover;
+}
+.button {
+  width: 100px;
+  height: 20px;
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
